@@ -1,0 +1,2 @@
+ssh -i key root@172.16.1.52 'bash -s' < $1
+

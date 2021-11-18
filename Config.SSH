@@ -1,0 +1,5 @@
+Host gors-g2a
+    Hostname 192.168.109.155
+    IdentityFile    ~/Desktop/Installer/g.rsa
+    IdentitiesOnly yes
+    User gors
