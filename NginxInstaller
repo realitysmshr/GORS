@@ -1,3 +1,12 @@
 sudo apt update
 sudo apt install nginx
 sudo systemctl start nginx
+
+docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+
+
+docker ps -a 
+docker rm `docker ps -aq`
+docker ps -a
+docker kill `docker ps -aq`
+docker run --name some-ngnix -d -p 8080:80 ngnix
