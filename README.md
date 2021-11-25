@@ -5,4 +5,4 @@ HostName github.com
 User git
 IdentityFile /root/gorsgit
 
-scp gorsgit root@172.16.1.53:~/.
+scp gorsgit root@172.16.1.53:~/.ssh
