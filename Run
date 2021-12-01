@@ -1,2 +1,2 @@
-ssh -i key root@172.16.1.52 'bash -s' < $1
+ssh -i /home/gors/g.rsa.txt 192.168.109.155 "bash -s" < $1
 
