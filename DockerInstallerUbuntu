@@ -20,6 +20,3 @@ sudo docker run hello-world
 
 
 scp -r GORS-virtual root@192.168.109.155:~/
-scp -r Labsetup root@192.168.109.155:~/
-
-docker-compose up
