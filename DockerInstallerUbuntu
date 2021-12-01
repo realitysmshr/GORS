@@ -19,7 +19,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
 
-scp -r GORS-virtual root@172.161.53:~/
-scp -r Labsetup root@172.161.53:~/
+scp -r GORS-virtual root@192.168.109.155:~/
+scp -r Labsetup root@192.168.109.155:~/
 
 docker-compose up
